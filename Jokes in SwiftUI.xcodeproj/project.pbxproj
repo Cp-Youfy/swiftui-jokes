@@ -13,6 +13,8 @@
 		994D32A526667DB000484399 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 994D32A426667DB000484399 /* Preview Assets.xcassets */; };
 		994D32B026667DB000484399 /* Jokes_in_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D32AF26667DB000484399 /* Jokes_in_SwiftUITests.swift */; };
 		994D32BB26667DB000484399 /* Jokes_in_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D32BA26667DB000484399 /* Jokes_in_SwiftUIUITests.swift */; };
+		994D32CF266682BF00484399 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D32CE266682BE00484399 /* Joke.swift */; };
+		996A71A2266A9FA000F68478 /* FeedbackResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A71A1266A9FA000F68478 /* FeedbackResponseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		994D32B626667DB000484399 /* Jokes in SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jokes in SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		994D32BA26667DB000484399 /* Jokes_in_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jokes_in_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		994D32BC26667DB000484399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		994D32CE266682BE00484399 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		996A71A1266A9FA000F68478 /* FeedbackResponseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackResponseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				994D329D26667DAE00484399 /* Jokes_in_SwiftUIApp.swift */,
 				994D329F26667DAE00484399 /* ContentView.swift */,
+				996A71A1266A9FA000F68478 /* FeedbackResponseView.swift */,
+				994D32CE266682BE00484399 /* Joke.swift */,
 				994D32A126667DB000484399 /* Assets.xcassets */,
 				994D32A626667DB000484399 /* Info.plist */,
 				994D32A326667DB000484399 /* Preview Content */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				996A71A2266A9FA000F68478 /* FeedbackResponseView.swift in Sources */,
 				994D32A026667DAE00484399 /* ContentView.swift in Sources */,
 				994D329E26667DAE00484399 /* Jokes_in_SwiftUIApp.swift in Sources */,
+				994D32CF266682BF00484399 /* Joke.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
